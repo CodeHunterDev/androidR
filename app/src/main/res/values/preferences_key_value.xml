@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="dashboard_view_mode_key">dashboard_view_mode</string>
+    <string name="dashboard_view_mode_list_value">LIST</string>
+    <string name="dashboard_view_mode_grid_value">GRID</string>
+    <string name="dashboard_view_mode_default_value">@string/dashboard_view_mode_grid_value</string>
+
+    <string name="drawable_background_color_key">drawable_background_color</string>
+    <string name="drawable_background_color_default_value">#00000000</string>
+
+</resources>

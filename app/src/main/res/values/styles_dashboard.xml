@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- dashboard -->
+    <style name="dashboard_item_icon">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_weight">0</item>
+        <item name="android:layout_margin">@dimen/dashboard_item_icon_layout_margin</item>
+        <item name="android:padding">0dip</item>
+    </style>
+
+    <style name="dashboard_item_label">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_weight">0</item>
+        <item name="android:layout_margin">0dip</item>
+        <item name="android:padding">0dip</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">@dimen/dashboard_item_label_textSize</item>
+        <item name="android:textColor">?android:textColorPrimary</item>
+    </style>
+
+    <style name="dashboard_item_title">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:layout_gravity">fill</item>
+        <item name="android:layout_weight">0</item>
+        <item name="android:layout_margin">0dip</item>
+        <item name="android:padding">0dip</item>
+        <item name="android:gravity">left|center_vertical</item>
+        <item name="android:textSize">@dimen/dashboard_item_title_textSize</item>
+        <item name="android:textColor">?android:textColorPrimary</item>
+    </style>
+
+</resources>

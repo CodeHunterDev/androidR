@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="color_list_item_name_paddingLeft">6sp</dimen>
+    <dimen name="color_list_item_name_paddingRight">6sp</dimen>
+    <dimen name="color_list_item_name_textSize">22sp</dimen>
+</resources>

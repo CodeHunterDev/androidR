@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:paddingLeft="@dimen/list_item_paddingLeft"
+    android:paddingTop="@dimen/list_item_paddingTop"
+    android:paddingRight="@dimen/list_item_paddingRight"
+    android:paddingBottom="@dimen/list_item_paddingBottom">
+
+    <FrameLayout
+        android:id="@+id/drawable_framelayout"
+        android:layout_width="64dip"
+        android:layout_height="64dip"
+        android:layout_margin="2dip"
+        android:layout_weight="0">
+
+        <ImageView
+            android:id="@+id/drawable_imageview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center" />
+    </FrameLayout>
+
+    <View style="@style/vline" />
+
+    <TextView
+        android:id="@+id/drawable_name_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:paddingLeft="@dimen/drawable_list_item_name_paddingLeft"
+        android:paddingRight="@dimen/drawable_list_item_name_paddingRight"
+        android:text="NAME"
+        android:textSize="@dimen/drawable_list_item_name_textSize" />
+
+    <TextView
+        android:id="@+id/drawable_id_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:text="RESOURCE_ID"
+        android:visibility="gone" />
+</LinearLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="preferences">設定</string>
+    <string name="preferences_title">設定</string>
+
+    <string name="dashboard_category_title">ダッシュボード</string>
+    <string name="dashboard_view_mode">表示モード</string>
+    <string name="dashboard_view_mode_title">表示モード</string>
+
+    <string name="drawable_category_title">Drawable</string>
+    <string name="drawable_background_color">背景色</string>
+    <string name="drawable_background_color_title">背景色</string>
+
+</resources>

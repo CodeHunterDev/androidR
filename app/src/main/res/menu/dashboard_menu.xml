@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/grid_mode_menuitem"
+        android:alphabeticShortcut="g"
+        android:icon="@drawable/ic_menu_grid"
+        android:numericShortcut="1"
+        android:title="@string/grid" />
+    <item
+        android:id="@+id/list_mode_menuitem"
+        android:alphabeticShortcut="l"
+        android:icon="@drawable/ic_menu_list"
+        android:numericShortcut="2"
+        android:title="@string/list" />
+</menu>

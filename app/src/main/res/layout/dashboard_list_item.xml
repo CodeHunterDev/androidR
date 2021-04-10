@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:paddingLeft="@dimen/list_item_paddingLeft"
+    android:paddingTop="@dimen/list_item_paddingTop"
+    android:paddingRight="@dimen/list_item_paddingRight"
+    android:paddingBottom="@dimen/list_item_paddingBottom">
+
+    <ImageView
+        android:id="@+id/icon_imageview"
+        style="@style/dashboard_item_icon" />
+
+    <View style="@style/vline" />
+
+    <TextView
+        android:id="@+id/title_textview"
+        style="@style/dashboard_item_title"
+        android:ellipsize="marquee"
+        android:singleLine="true"
+        android:textSize="@dimen/dashboard_item_title_textSize" />
+
+    <!-- classname (invisible view) -->
+    <TextView
+        android:id="@+id/classname_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone" />
+</LinearLayout>

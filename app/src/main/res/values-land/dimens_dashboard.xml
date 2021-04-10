@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="dashboard_grid_verticalSpacing">8dip</dimen>
+    <dimen name="dashboard_grid_horizontalSpacing">8dip</dimen>
+
+    <dimen name="dashboard_grid_paddingTop">4dip</dimen>
+    <dimen name="dashboard_grid_paddingBottom">4dip</dimen>
+    <dimen name="dashboard_grid_paddingLeft">24dip</dimen>
+    <dimen name="dashboard_grid_paddingRight">24dip</dimen>
+
+    <dimen name="dashboard_grid_item_paddingTop">4dip</dimen>
+    <dimen name="dashboard_grid_item_paddingBottom">4dip</dimen>
+    <dimen name="dashboard_grid_item_paddingRight">0dip</dimen>
+    <dimen name="dashboard_grid_item_paddingLeft">0dip</dimen>
+
+    <dimen name="dashboard_item_icon_layout_margin">0dip</dimen>
+    <dimen name="dashboard_item_label_textSize">14sp</dimen>
+    <dimen name="dashboard_item_title_textSize">16sp</dimen>
+</resources>

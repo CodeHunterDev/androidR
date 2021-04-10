@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <View style="@style/hline" />
+
+    <FrameLayout
+        android:id="@+id/drawable_framelayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="2dip">
+
+        <ImageView
+            android:id="@+id/drawable_imageview"
+            android:layout_width="@dimen/drawable_zoom_imageview_width"
+            android:layout_height="@dimen/drawable_zoom_imageview_height"
+            android:layout_gravity="center"
+            android:padding="@dimen/drawable_zoom_imageview_padding"
+            android:scaleType="fitCenter"
+            android:src="@android:drawable/sym_def_app_icon" />
+    </FrameLayout>
+
+    <View style="@style/hline" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="2dip"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/drawable_type_textview"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/drawable_zoom_textview_layout_margin"
+            android:gravity="center"
+            android:text="&lt;TYPE&gt;"
+            android:textSize="@dimen/drawable_zoom_textview_textSize" />
+
+        <TextView
+            android:id="@+id/drawable_size_textview"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/drawable_zoom_textview_layout_margin"
+            android:gravity="center"
+            android:text="&lt;UNKNOWN&gt;"
+            android:textSize="@dimen/drawable_zoom_textview_textSize" />
+
+    </LinearLayout>
+
+</LinearLayout>

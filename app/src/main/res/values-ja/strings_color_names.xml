@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="transparent">透過</string>
+    <string name="black">黒</string>
+    <string name="white">白</string>
+    <string name="red">赤</string>
+    <string name="green">緑</string>
+    <string name="blue">青</string>
+    <string name="cyan">シアン</string>
+    <string name="magenta">マゼンタ</string>
+    <string name="yellow">イエロー</string>
+</resources>

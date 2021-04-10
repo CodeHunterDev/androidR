@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Theme.Holo based color -->
+    <color name="color_chooser_dialog_list_item_textColor">@android:color/primary_text_dark</color>
+    <color name="color_chooser_dialog_line_background">#333</color>
+</resources>

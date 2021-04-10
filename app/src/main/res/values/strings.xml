@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">.R</string>
+
+    <string name="drawable_viewer">Drawable</string>
+    <string name="drawable_viewer_title">android.R.drawable</string>
+
+    <string name="string_viewer">String</string>
+    <string name="string_viewer_title">android.R.string</string>
+
+    <string name="color_viewer">Color</string>
+    <string name="color_viewer_title">android.R.color</string>
+
+    <string name="dimension_viewer">Dimension</string>
+    <string name="dimension_viewer_title">android.R.dimen</string>
+
+    <string name="theme_viewer">Style Theme</string>
+    <string name="theme_viewer_title">android.R.style.Theme*</string>
+    <string name="theme_example_title">Theme Example</string>
+
+    <string name="list_item_viewer">Layout ListItem</string>
+    <string name="list_item_viewer_title">android.R.layout.*list_item*</string>
+    <string name="list_item_example_title">ListItem Example</string>
+
+    <string name="array_viewer">Array</string>
+    <string name="array_viewer_title">android.R.array</string>
+
+</resources>

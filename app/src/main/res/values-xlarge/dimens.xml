@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- activity padding -->
+    <dimen name="activity_paddingLeft">8dip</dimen>
+    <dimen name="activity_paddingRight">8dip</dimen>
+    <dimen name="activity_paddingTop">8dip</dimen>
+    <dimen name="activity_paddingBottom">8dip</dimen>
+    <!-- list item padding -->
+    <dimen name="list_row_paddingLeft">8dip</dimen>
+    <dimen name="list_row_paddingRight">8dip</dimen>
+    <dimen name="list_row_paddingTop">16dip</dimen>
+    <dimen name="list_row_paddingBottom">16dip</dimen>
+</resources>

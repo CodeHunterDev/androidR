@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="color_chooser_dialog_item_name_paddingLeft">6sp</dimen>
+    <dimen name="color_chooser_dialog_item_name_paddingRight">6sp</dimen>
+    <dimen name="color_chooser_dialog_item_name_textSize">24sp</dimen>
+
+</resources>

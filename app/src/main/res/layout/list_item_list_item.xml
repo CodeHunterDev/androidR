@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:paddingLeft="@dimen/list_item_paddingLeft"
+    android:paddingTop="@dimen/list_item_paddingTop"
+    android:paddingRight="@dimen/list_item_paddingRight"
+    android:paddingBottom="@dimen/list_item_paddingBottom">
+
+    <TextView
+        android:id="@+id/name_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:ellipsize="marquee"
+        android:paddingLeft="@dimen/list_item_list_name_paddingLeft"
+        android:paddingTop="@dimen/list_item_list_name_paddingTop"
+        android:paddingRight="@dimen/list_item_list_name_paddingRight"
+        android:paddingBottom="@dimen/list_item_list_name_paddingBottom"
+        android:singleLine="true"
+        android:text="NAME"
+        android:textColor="?android:textColorPrimary"
+        android:textSize="@dimen/list_item_list_name_textSize" />
+
+    <TextView
+        android:id="@+id/resource_id_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:text="RESOURCE_ID"
+        android:visibility="gone" />
+</LinearLayout>

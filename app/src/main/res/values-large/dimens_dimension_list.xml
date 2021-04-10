@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- dimension -->
+    <dimen name="dimension_list_value_column_width">110dip</dimen>
+    <dimen name="dimension_list_value_paddingTop">10dip</dimen>
+    <dimen name="dimension_list_value_paddingBottom">10dip</dimen>
+    <dimen name="dimension_list_value_paddingRight">4sp</dimen>
+    <dimen name="dimension_list_value_paddingLeft">4sp</dimen>
+    <dimen name="dimension_list_value_textSize">16sp</dimen>
+
+    <!-- dimension_name -->
+    <dimen name="dimension_list_name_paddingLeft">6sp</dimen>
+    <dimen name="dimension_list_name_paddingRight">6sp</dimen>
+    <dimen name="dimension_list_name_textSize">22sp</dimen>
+</resources>

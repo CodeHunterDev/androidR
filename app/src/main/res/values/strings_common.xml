@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="quit">Quit</string>
+    <string name="etc">Etc</string>
+    <string name="open_reference">Open Reference</string>
+    <string name="hello">Hello</string>
+    <string name="search_by_name">Search by Name</string>
+    <string name="no_data">No Data</string>
+    <string name="not_supported">Not Supported</string>
+    <string name="background_color">Background Color</string>
+
+    <string name="browser_not_found">The Web browser was not found.</string>
+
+</resources>

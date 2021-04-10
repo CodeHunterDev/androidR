@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+    <!-- Theme name -->
+    <TextView
+        android:id="@+id/theme_name_textview"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dip"
+        android:gravity="center"
+        android:text=""
+        android:textColor="?android:textColorPrimary"
+        android:textSize="16sp" />
+
+    <View style="@style/hline" />
+
+    <!-- example widgets table -->
+    <TableLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="2dip"
+        android:stretchColumns="1">
+
+        <TableRow style="@style/table_row">
+
+            <TextView
+                style="@style/table_column_label"
+                android:text="Button" />
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="2dip"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:text="@string/hello">
+
+                <requestFocus />
+            </Button>
+        </TableRow>
+
+        <TableRow style="@style/table_row">
+
+            <TextView
+                style="@style/table_column_label"
+                android:text="CheckBox" />
+
+            <CheckBox
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="2dip"
+                android:text="@string/hello" />
+        </TableRow>
+
+        <TableRow style="@style/table_row">
+
+            <TextView
+                style="@style/table_column_label"
+                android:text="TextView" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="2dip"
+                android:gravity="center"
+                android:text="@string/hello" />
+        </TableRow>
+
+        <TableRow style="@style/table_row">
+
+            <TextView
+                style="@style/table_column_label"
+                android:text="EditText" />
+
+            <EditText
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="2dip"
+                android:text="@string/hello" />
+        </TableRow>
+    </TableLayout>
+</LinearLayout>
+

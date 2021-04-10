@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="quit">終了</string>
+    <string name="etc">その他</string>
+    <string name="open_reference">リファレンスを開く</string>
+    <string name="hello">こんにちは</string>
+    <string name="search_by_name">名前で検索</string>
+    <string name="no_data">データがありません</string>
+    <string name="not_supported">サポートされていません</string>
+    <string name="background_color">背景色</string>
+
+    <string name="browser_not_found">Web ブラウザが見つかりませんでした。</string>
+
+</resources>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="@string/dashboard_category_title">
+        <ListPreference
+            android:defaultValue="@string/dashboard_view_mode_default_value"
+            android:dialogTitle="@string/dashboard_view_mode_title"
+            android:entries="@array/dashboard_view_mode_entries"
+            android:entryValues="@array/dashboard_view_mode_values"
+            android:key="@string/dashboard_view_mode_key"
+            android:title="@string/dashboard_view_mode" />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/drawable_category_title">
+        <!--
+        <ListPreference
+            android:key="@string/drawable_background_color_key"
+            android:defaultValue="@string/drawable_background_color_default_value"
+            android:title="@string/drawable_background_color"
+            android:dialogTitle="@string/drawable_background_color_title"
+            android:entries="@array/drawable_background_color_entries"
+            android:entryValues="@array/drawable_background_color_values"
+        />
+        -->
+        <org.routine_work.android_r.drawable.BackgroundColorDialogPreference
+            android:defaultValue="@string/drawable_background_color_default_value"
+            android:dialogTitle="@string/drawable_background_color_title"
+            android:key="@string/drawable_background_color_key"
+            android:title="@string/drawable_background_color" />
+        <!--
+        -->
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/etc">
+        <PreferenceScreen
+            android:key="about_app_screen"
+            android:summary="@string/about_app_summary"
+            android:title="@string/about_app_title">
+            <PreferenceScreen
+                android:summary="@string/application_version_summary"
+                android:title="@string/application_version_title">
+                <intent
+                    android:action="android.intent.action.MAIN"
+                    android:targetClass="org.routine_work.android_r.about.AppVersionActivity"
+                    android:targetPackage="org.routine_work.android_r" />
+            </PreferenceScreen>
+            <PreferenceScreen
+                android:summary="@string/application_store_summary"
+                android:title="@string/application_store_title">
+                <intent
+                    android:action="android.intent.action.MAIN"
+                    android:targetClass="org.routine_work.android_r.about.AppStoreActivity"
+                    android:targetPackage="org.routine_work.android_r" />
+            </PreferenceScreen>
+            <PreferenceScreen
+                android:summary="@string/application_management_summary"
+                android:title="@string/application_management_title">
+                <intent
+                    android:action="android.intent.action.MAIN"
+                    android:targetClass="org.routine_work.android_r.about.AppManagementActivity"
+                    android:targetPackage="org.routine_work.android_r" />
+            </PreferenceScreen>
+        </PreferenceScreen>
+    </PreferenceCategory>
+
+
+    <!--
+        <PreferenceCategory android:title="Debug" >
+            <PreferenceScreen
+               android:title="Debug"
+               android:summary="Debug functions"
+            >
+                <intent
+                    android:action="android.intent.action.MAIN"
+                    android:targetPackage="org.routine_work.android.battery_logger"
+                    android:targetClass="org.routine_work.android.battery_logger.DebugActivity"
+                />
+            </PreferenceScreen>
+        </PreferenceCategory>
+    -->
+
+</PreferenceScreen>

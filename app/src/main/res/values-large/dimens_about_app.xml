@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="about_app_icon_frame_padding">32dip</dimen>
+    <dimen name="about_app_info_frame_padding">32dip</dimen>
+
+    <dimen name="about_app_info_item_margin">8dip</dimen>
+
+    <dimen name="about_app_name_textSize">44sp</dimen>
+    <dimen name="about_app_version_textSize">28sp</dimen>
+
+    <dimen name="about_app_label_textSize">20sp</dimen>
+</resources>

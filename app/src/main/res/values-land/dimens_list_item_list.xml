@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- string name -->
+    <dimen name="list_item_list_name_paddingTop">10dip</dimen>
+    <dimen name="list_item_list_name_paddingBottom">10dip</dimen>
+    <dimen name="list_item_list_name_paddingLeft">4sp</dimen>
+    <dimen name="list_item_list_name_paddingRight">4sp</dimen>
+    <dimen name="list_item_list_name_textSize">18sp</dimen>
+</resources>

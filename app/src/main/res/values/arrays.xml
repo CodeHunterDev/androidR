@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="dashboard_view_mode_entries">
+        <item>@string/grid</item>
+        <item>@string/list</item>
+    </string-array>
+
+    <string-array name="dashboard_view_mode_values">
+        <item>@string/dashboard_view_mode_grid_value</item>
+        <item>@string/dashboard_view_mode_list_value</item>
+    </string-array>
+
+    <string-array name="drawable_background_color_entries">
+        <item>@string/transparent</item>
+        <item>@string/black</item>
+        <item>@string/white</item>
+        <item>@string/red</item>
+        <item>@string/green</item>
+        <item>@string/blue</item>
+        <item>@string/cyan</item>
+        <item>@string/magenta</item>
+        <item>@string/yellow</item>
+    </string-array>
+    <string-array name="drawable_background_color_values">
+        <item>#00000000</item>
+        <item>#ff000000</item>
+        <item>#ffffffff</item>
+        <item>#ffff0000</item>
+        <item>#ff00ff00</item>
+        <item>#ff0000ff</item>
+        <item>#ff00ffff</item>
+        <item>#ffff00ff</item>
+        <item>#ffffff00</item>
+    </string-array>
+</resources>

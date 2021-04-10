@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="preferences">Preferences</string>
+    <string name="preferences_title">Preferences</string>
+
+    <string name="dashboard_category_title">Dashboard</string>
+    <string name="dashboard_view_mode">View Mode</string>
+    <string name="dashboard_view_mode_title">View Mode</string>
+
+    <string name="drawable_category_title">Drawable</string>
+    <string name="drawable_background_color">Background Color</string>
+    <string name="drawable_background_color_title">Background Color</string>
+
+</resources>

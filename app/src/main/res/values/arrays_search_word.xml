@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="search_word_db_initial_data">
+        <item>color,background_</item>
+        <item>color,black</item>
+        <item>color,dark_</item>
+        <item>color,gray</item>
+        <item>color,light</item>
+        <item>color,primary_</item>
+        <item>color,secondary_</item>
+        <item>color,text_</item>
+        <item>color,transparent</item>
+        <item>color,white</item>
+        <item>dimen,height</item>
+        <item>dimen,size</item>
+        <item>dimen,thumbnail</item>
+        <item>dimen,width</item>
+        <item>drawable,btn_</item>
+        <item>drawable,checkbox_</item>
+        <item>drawable,ic_menu_</item>
+        <item>drawable,ic_media_</item>
+        <item>drawable,presence_</item>
+        <item>drawable,star_</item>
+        <item>drawable,stat_</item>
+        <item>drawable,sym_</item>
+        <item>layout,choice</item>
+        <item>layout,expandable</item>
+        <item>layout,simple</item>
+        <item>style,Black</item>
+        <item>style,FullScreen</item>
+        <item>style,Light</item>
+        <item>style,NoTitleBar</item>
+        <item>style,Translucent</item>
+        <item>style,Wallpaper</item>
+    </array>
+</resources>

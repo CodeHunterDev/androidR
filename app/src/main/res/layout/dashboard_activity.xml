@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:paddingLeft="@dimen/activity_paddingLeft"
+    android:paddingTop="@dimen/activity_paddingTop"
+    android:paddingRight="@dimen/activity_paddingRight"
+    android:paddingBottom="@dimen/activity_paddingBottom">
+
+    <GridView
+        android:id="@+id/dashboard_gridview"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="center"
+        android:horizontalSpacing="@dimen/dashboard_grid_horizontalSpacing"
+        android:numColumns="3"
+        android:paddingLeft="@dimen/dashboard_grid_paddingLeft"
+        android:paddingTop="@dimen/dashboard_grid_paddingTop"
+        android:paddingRight="@dimen/dashboard_grid_paddingRight"
+        android:paddingBottom="@dimen/dashboard_grid_paddingBottom"
+        android:stretchMode="columnWidth"
+        android:verticalSpacing="@dimen/dashboard_grid_verticalSpacing"
+        android:visibility="invisible" />
+
+    <ListView
+        android:id="@+id/dashboard_listview"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:visibility="invisible" />
+</FrameLayout>

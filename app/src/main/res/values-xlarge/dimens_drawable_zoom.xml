@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="drawable_zoom_imageview_width">400dip</dimen>
+    <dimen name="drawable_zoom_imageview_height">400dip</dimen>
+    <dimen name="drawable_zoom_imageview_padding">20dip</dimen>
+
+    <dimen name="drawable_zoom_textview_textSize">22sp</dimen>
+    <dimen name="drawable_zoom_textview_layout_margin">4dip</dimen>
+
+</resources>

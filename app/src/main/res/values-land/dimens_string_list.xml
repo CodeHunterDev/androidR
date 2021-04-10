@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="string_list_name_textSize">16sp</dimen>
+
+    <dimen name="string_list_string_paddingLeft">32sp</dimen>
+    <dimen name="string_list_string_textSize">16sp</dimen>
+</resources>

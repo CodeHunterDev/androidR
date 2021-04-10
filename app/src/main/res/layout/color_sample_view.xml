@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:paddingLeft="@dimen/list_item_paddingLeft"
+    android:paddingTop="@dimen/list_item_paddingTop"
+    android:paddingRight="@dimen/list_item_paddingRight"
+    android:paddingBottom="@dimen/list_item_paddingBottom">
+
+    <LinearLayout
+        android:layout_width="70dip"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="4dip"
+            android:layout_weight="0"
+            android:background="#ccc"
+            android:padding="2dip">
+
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0"
+                android:background="#000"
+                android:padding="2dip">
+
+                <View
+                    android:id="@+id/color_sample_view"
+                    android:layout_width="32dip"
+                    android:layout_height="32dip"
+                    android:background="#000" />
+            </FrameLayout>
+        </FrameLayout>
+
+        <TextView
+            android:id="@+id/color_code_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="0"
+            android:text="#00000000"
+            android:textColor="@color/color_chooser_dialog_list_item_textColor"
+            android:textSize="12sp"
+            android:typeface="monospace" />
+    </LinearLayout>
+
+    <View
+        style="@style/vline"
+        android:background="@color/color_chooser_dialog_line_background" />
+
+    <CheckedTextView
+        android:id="@+id/color_name_textview"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:checkMark="?android:attr/listChoiceIndicatorSingle"
+        android:gravity="center_vertical"
+        android:paddingLeft="@dimen/color_chooser_dialog_item_name_paddingLeft"
+        android:paddingRight="@dimen/color_chooser_dialog_item_name_paddingRight"
+        android:text="NAME"
+        android:textColor="@color/color_chooser_dialog_list_item_textColor"
+        android:textSize="@dimen/color_chooser_dialog_item_name_textSize" />
+</LinearLayout>

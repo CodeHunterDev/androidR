@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Theme.Black based color -->
+    <color name="color_chooser_dialog_list_item_textColor">@android:color/primary_text_light</color>
+    <color name="color_chooser_dialog_line_background">#CCC</color>
+</resources>
